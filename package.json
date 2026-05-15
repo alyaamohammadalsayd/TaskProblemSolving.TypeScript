@@ -1,0 +1,28 @@
+{
+  "name": "taskproblemsolving.typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "npx tsc && node ./dist/Problem1.js",
+    "dev2": "npx tsc && node ./dist/Problem2.js",
+    "dev3": "npx tsc && node ./dist/Problem3.js",
+    "dev4": "npx tsc && node ./dist/Problem4.js",
+    "dev5": "npx tsc && node ./dist/Problem5.js",
+    "dev6": "npx tsc && node ./dist/Problem6.js",
+    "dev7": "npx tsc && node ./dist/Problem7.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyaamohammadalsayd/TaskProblemSolving.TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alyaamohammadalsayd/TaskProblemSolving.TypeScript/issues"
+  },
+  "homepage": "https://github.com/alyaamohammadalsayd/TaskProblemSolving.TypeScript#readme"
+}
