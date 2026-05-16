@@ -67,3 +67,16 @@ The width is determined using:
 -The current index
 -The index of the bar on top of the stack after popping
 _______________________________________________________________________
+Problem7:
+-We have a binary matrix mat[][] that contains only 0s and 1s.
+-We want to find the largest rectangular area that consists only of 1s.
+Converting Each Row into a Histogram
+For every row:
+-If the cell is 1 → we increase the height of the column.
+-If the cell is 0 → we reset the height to 0.
+This transforms each row into a histogram.
+For Each Row
+We apply the Largest Rectangle in Histogram algorithm (the same one used in Problem 6).
+We compute the largest rectangle for that row.
+We keep track of the maximum area found.
+By doing this for all rows, we obtain the largest rectangle of 1s in the entire matrix.
