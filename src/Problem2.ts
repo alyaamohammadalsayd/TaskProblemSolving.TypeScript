@@ -1,5 +1,3 @@
-/** @format */
-
 const trapWater = (arr: number[]): number => {
   const n = arr.length;
 
