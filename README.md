@@ -44,3 +44,13 @@ We return: -true → if we can reach the end
 3-At each step, we update maxReach:
 maxReach = Math.max(maxReach, i + arr[i])
 _______________________________________________________________________
+Problem5:
+-We have a rod of length n, and an array price[] where price[i] represents the price of a piece of length i.
+-If you have a rod of length n, you have two choices:
+-Sell the whole rod for price[n]
+-Cut it into two pieces: 1-One piece of length i
+                         2-And the other piece of length n - i
+Then add their profits together
+Since we want the maximum profit, we try all possible cuts.
+This makes the solution depend on: max(price[i] + best(n - i)).
+_______________________________________________________________________
