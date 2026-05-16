@@ -55,3 +55,15 @@ Since we want the maximum profit, we try all possible cuts.
 This makes the solution depend on: max(price[i] + best(n - i)).
 _______________________________________________________________________
 Problem6:
+We have a histogram made of adjacent bars, and each bar has a certain height.
+We want to find the largest rectangular area that can be formed inside this histogram, using only consecutive bars.
+Steps:
+-We iterate through the bars one by one.
+-As long as the current bar is higher than the bar on top of the stack, we push it onto the stack.
+-If the current bar is lower, we start popping bars from the stack.
+-For each bar we pop, we calculate the largest rectangle where this bar is the shortest height.
+-Area Formula : height * width
+The width is determined using:
+-The current index
+-The index of the bar on top of the stack after popping
+_______________________________________________________________________
