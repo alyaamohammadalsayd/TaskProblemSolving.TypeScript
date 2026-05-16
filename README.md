@@ -54,3 +54,4 @@ Then add their profits together
 Since we want the maximum profit, we try all possible cuts.
 This makes the solution depend on: max(price[i] + best(n - i)).
 _______________________________________________________________________
+Problem6:
