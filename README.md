@@ -24,3 +24,11 @@ Steps:
 2-Create an array rightMax[] that stores the highest building to the right of each index.
 3-For each index:Calculate the trapped water above it.
 4-Sum all the values.
+_______________________________________________________________________
+Problem3:
+A person wants to climb n steps.
+They can climb: One step Or two steps
+We want to calculate the number of different ways to reach the top.
+The number of ways to climb n steps is:
+ways(n) = ways(n - 1) + ways(n - 2)
+_______________________________________________________________________
