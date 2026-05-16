@@ -32,3 +32,15 @@ We want to calculate the number of different ways to reach the top.
 The number of ways to climb n steps is:
 ways(n) = ways(n - 1) + ways(n - 2)
 _______________________________________________________________________
+Problem4:
+array arr[], where each element represents the maximum number of steps you can jump from that position.
+-Determine whether it is possible to reach the last index of the array.
+We return: -true → if we can reach the end
+           -false → if it is impossible to reach the end
+-We track the farthest position we can reach so far, called maxReach.
+-As we iterate through the array:
+1-If we reach an index that is greater than maxReach, it means we are stuck and cannot move forward → return false.
+2-If maxReach reaches or passes the last index, we return true.
+3-At each step, we update maxReach:
+maxReach = Math.max(maxReach, i + arr[i])
+_______________________________________________________________________
